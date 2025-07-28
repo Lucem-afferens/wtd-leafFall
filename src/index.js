@@ -182,4 +182,22 @@ document.querySelector("form").addEventListener("submit", function(e) {
     });
   });
 
-  
+  window.onload = function () {
+    window.deactivateOverlay = function (el) {
+      el.style.pointerEvents = 'none';
+    }
+
+    window.activateMap = function (container) {
+      const overlay = container.querySelector('.map-overlay');
+      if (overlay) {
+        overlay.style.pointerEvents = 'none';
+      }
+    }
+
+    window.deactivateMap = function (container) {
+      const overlay = container.querySelector('.map-overlay');
+      if (overlay) {
+        overlay.style.pointerEvents = 'auto';
+      }
+    }
+  }

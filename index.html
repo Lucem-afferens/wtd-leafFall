@@ -123,18 +123,31 @@
             <div class="location__wrapper">
                 <div class="descr descr_location" >
                 <u style="cursor: pointer;">Наша свадьба пройдет</u> <br> <br>
-                в Усадьбе "Villa Michetti" - это маленькая Италия в часе езды от Москвы <br> <br>
+                в павильоне «Маджестик» на берегу Финского залива<br> <br>
                 Адрес: <br> <address class="vibes">д. Бережки, Солнечногорский р-н</address>
                 </div>
             </div>
         </div>
     </section>
-    <!-- <section class="restaurant">
+    <!-- <section class="location">
+        <div class="container">
+            <div class="location__wrapper">
+                <div class="devider devider_location anim"></div>
+                <div class="descr descr_location anim" >
+                <u style="cursor: pointer;">Наша свадьба пройдет</u> <br> <br>
+                в Усадьбе "Villa Michetti" - это маленькая Италия в часе езды от Москвы <br> <br>
+                Адрес: <br> <address class="vibes">д. Бережки, Солнечногорский р-н</address>
+                </div>
+            </div>
+        </div>
+        <div class="location__img">
+    </section>
+    <section class="restaurant">
         <div class="container">
             <div class="restaurant__wrapper">
                 <div class="devider devider_restaurant anim"></div>
                 <div class="descr descr_restaurant anim">
-                <u style="cursor: pointer;" title="Описание: Неповторимая атмосфера дворца, учтивый персонал, великолепные авторские блюда, изящная подача и сервировка. Один из самых знаменитых ресторанов города. Вместимость: Парадный зал - 40 персон. Серебряный зал - 180 персон. Трельяжная терраса - 250 персон. Фарфоровый зал - 70 персон. Флорентийский дворик - 100 персон. Особенности: Абсолютная классика в образцовом виде.">БАНКЕТ ПРОЙДЕТ</u> <br>
+                <u style="cursor: pointer;">БАНКЕТ ПРОЙДЕТ</u> <br>
                 в ресторане "Турандот" <br>
                 Адрес: <address class="vibes">Москва, Тверской бульвар, д. 26 стр. 3</address>
                 </div>
@@ -147,16 +160,20 @@
             <div class="path__wrapper">
                 <div class="devider devider_path anim"></div>
                 <div class="title title_path anim">Как добраться? </div>
-                <div class="descr descr_path anim">Для Вашего удобства мы подготовили карту. Надеемся, что вы легко найдете место проведения свадьбы (усадьба "Villa Michetti") и порадуете нас своим присутствием!</div>
+                <div class="descr descr_path anim">Для Вашего удобства мы подготовили карту. Надеемся, что вы легко найдете место проведения свадьбы (банкетный зал "Majestic") и порадуете нас своим присутствием!</div>
             </div>
         </div>
         <div class="path__map">
-            <div style="position:relative;overflow:hidden;">
-                <a href="https://yandex.ru/maps/org/villa_michetti/150853201656/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Villa Michetti</a>
-                <a href="https://yandex.ru/maps/1/moscow-and-moscow-oblast/category/landmark_attraction/89683368508/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Достопримечательность в Москве и Московской области</a>
-                <iframe src="https://yandex.ru/map-widget/v1/org/villa_michetti/150853201656/?ll=36.834920%2C56.111293&z=14" width="100%" height="450" frameborder="1" allowfullscreen="" style="position:relative;border:none" loading="lazy"></iframe>
+            <div class="map-container" ontouchstart="activateMap(this)" onmouseleave="deactivateMap(this)">
+              <div class="map-overlay" onclick="deactivateOverlay(this)"></div>
+              <iframe
+                src="https://yandex.ru/map-widget/v1/?um=constructor%3A91db064466457b08578d3c59bd57f5638c881cb1325580052fec667cec5aef22&amp;source=constructor"
+                width="100%"
+                height="400"
+                frameborder="0"
+              ></iframe>
             </div>
-        </div>
+          </div>
     </section>
     <section class="calendar">
         <div class="container">
@@ -165,7 +182,7 @@
                     <img src="public/img/ini.svg">
                 </div>
                 <div class="devider devider_calendar anim"></div>
-                <h2 class="title title_calendar anim">Март</h2>
+                <h2 class="title title_calendar anim">Апрель</h2>
                 <table class="calendar__table">
                 <thead>
                     <tr>
@@ -201,7 +218,7 @@
                         <td class="calendar__number">12 <span class="calendar__heart anim"><img src="public/img/heart_empty.png"></span></td>
                         <td>13</td>
                         <td>14</td>
-                        <td>12</td>                        
+                        <td>15</td>                        
                         <td>16</td>
                         <td>17</td>
                         <td>18</td>
