@@ -25,6 +25,7 @@
         text-shadow: 2px 2px 5px #c0c0c0;
         opacity: .7;
         font-size: clamp(38px, 4vw, 80px);
+        position: relative;
     }
     &_path {
         width: 100%;
