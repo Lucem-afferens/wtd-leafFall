@@ -182,6 +182,9 @@ document.querySelector("form").addEventListener("submit", function(e) {
     });
   });
 
+
+
+  //активация карты по клику на нее
   window.onload = function () {
     window.deactivateOverlay = function (el) {
       el.style.pointerEvents = 'none';
