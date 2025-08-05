@@ -23,6 +23,15 @@
     <link rel="manifest" href="icons/favicon/site.webmanifest" />
 
     <link rel="preload" as="image" href="img/ten-list-ev-na-belom-fone.webp" />
+    <style>
+        .body__wrapper {
+            position: fixed;
+            width: 100vw;
+            height: 100vh;
+            height: 100lvh;
+            background: url('/img/ten-list-ev-na-belom-fone.webp') no-repeat 50%/cover;
+        }
+      </style>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="assets/all.min.css">
     <link rel="stylesheet" href="src/sass/style.scss">
@@ -171,6 +180,7 @@
                 width="100%"
                 height="400"
                 frameborder="0"
+                loading="lazy"
               ></iframe>
             </div>
         </div>
@@ -179,7 +189,7 @@
         <div class="container">
             <div class="calendar__wrapper">
                 <div class="calendar__img">
-                    <img src="public/img/ini.svg">
+                    <img src="public/img/ini.svg" loading="lazy">
                 </div>
                 <div class="devider devider_calendar anim"></div>
                 <h2 class="title title_calendar anim">Апрель</h2>
@@ -215,7 +225,7 @@
                         <td>11</td>
                     </tr>
                     <tr>
-                        <td class="calendar__number">12 <span class="calendar__heart anim"><img src="public/img/heart_empty.png"></span></td>
+                        <td class="calendar__number">12 <span class="calendar__heart anim"><img src="public/img/heart_empty.png" loading="lazy"></span></td>
                         <td>13</td>
                         <td>14</td>
                         <td>15</td>                        
@@ -251,13 +261,13 @@
             <div class="devider devider_programm anim"></div>
             <h2 class="title title_programm anim">Программа дня </h2>
             <div class="programm__wrapper">
-                    <img class="programm__img anim anim_programm" src="public/img/ring.png"></img>
+                    <img class="programm__img anim anim_programm" src="public/img/ring.png" loading="lazy"></img>
                 <div class="descr descr_programm anim anim_programm"><span>14.00 <br> торжественная регистрация брака</span> <br> Немного радостных трогательных формальностей </div>
-                    <img class="programm__img anim anim_programm" src="public/img/map.png"></img>
+                    <img class="programm__img anim anim_programm" src="public/img/map.png" loading="lazy"></img>
                 <div class="descr descr_programm anim anim_programm"><span>16.00 <br> СБОР ГОСТЕЙ/ФУРШЕТ</span> <br> Встречаемся, наслаждаемся фуршетом, настраиваемся на веселую свадьбу</div>
-                    <img class="programm__img anim anim_programm" src="public/img/coctaile.png"></img>
+                    <img class="programm__img anim anim_programm" src="public/img/coctaile.png" loading="lazy"></img>
                 <div class="descr descr_programm anim anim_programm"><span>17.00 <br> БАНКЕТ</span> <br>Время долгожданной еды, музыки, приятных пожеланий и танцев</div>
-                    <img class="programm__img anim anim_programm" src="public/img/flowers.png"></img>
+                    <img class="programm__img anim anim_programm" src="public/img/flowers.png" loading="lazy"></img>
                 <div class="descr descr_programm anim anim_programm"><span>23.00 <br>Завершение вечера</span> <br>К сожалению, даже такой прекрасный вечер может закончиться</div>
             </div>
         </div>
@@ -358,7 +368,7 @@
                 <div class="descr descr_footer anim">БУДЕМ РАДЫ ВИДЕТЬ ВАС НА НАШЕМ ПРАЗДНИКЕ!</div>
                 <div class="title title_footer">Ваши <br> Илья и Анастасия
                     <div class="footer__branch">
-                        <img src="public/img/Group 1.svg" alt="">
+                        <img src="public/img/Group 1.svg" alt="" loading="lazy">
                     </div>
                 </div>
             </div>
