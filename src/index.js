@@ -204,3 +204,15 @@ document.querySelector("form").addEventListener("submit", function(e) {
       }
     }
   }
+
+
+// Preloader
+  const img = new Image();
+img.src = '/img/ten-list-ev-na-belom-fone.webp'; // путь к вашему фону
+
+img.onload = () => {
+  // Когда фон загрузился — убираем затемнение
+  document.getElementById('loading-screen').classList.add('loaded');
+  document.body.classList.add('loaded');
+  document.body.style.overflow = 'auto'; // возвращаем прокрутку
+};
