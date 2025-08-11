@@ -24,6 +24,9 @@
     margin: 0 auto;
     max-width: 780px;
     overflow: visible;
+    &_countdown {
+      height: auto;
+    }
 }
 
 a {

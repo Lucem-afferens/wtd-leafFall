@@ -85,7 +85,7 @@
             </div>
         </div>
     </section>
-    <div class="container">
+    <div class="container container_countdown">
         <div class="countdown__wrapper">
             <div class="devider devider__countdown anim"></div>
             <div class="anim countdown__title">
@@ -165,7 +165,9 @@
         </div>
         <div class="path__map">
             <div class="map-container" ontouchstart="activateMap(this)" onmouseleave="deactivateMap(this)">
-              <div class="map-overlay" onclick="deactivateOverlay(this)"></div>
+              <div class="map-overlay" onclick="deactivateOverlay(this)">
+                <span class="map-overlay__text">Нажмите на карту для активации масштабирования</span>
+              </div>
               <iframe
                 src="https://yandex.ru/map-widget/v1/?um=constructor%3A91db064466457b08578d3c59bd57f5638c881cb1325580052fec667cec5aef22&amp;source=constructor"
                 width="100%"
